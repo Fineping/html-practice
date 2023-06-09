@@ -1,0 +1,261 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ @font-face {
+    font-family: 'ParryHotter';
+    src: url(/fonts/ParryHotter.ttf) format('ttf');
+    font-weight: 400;
+  }
+
+ 
+body{
+    background-color: #ffffff;
+    color: black;
+
+    font-size: 16px;
+    font-weight:300;
+    font-family: 'Roboto', sans-serif; 
+
+    font: normal 16px 'Roboto', sans-serif;  
+
+ } 
+
+.container{ 
+    margin:auto;
+    max-width: 750px;
+    padding-top:30px;
+}
+
+.card{
+    padding:15px 20px;
+    background-color: teal;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-right:60px;
+}
+
+.card h3 {
+margin-left: 40px;
+}
+
+.bg-yellow {
+
+background: rgb(177, 177, 140);
+}
+
+.bg-green {
+
+    background: rgb(136, 150, 132);
+    padding-right: 80px
+    
+}
+
+
+.bg-red {
+
+background: rgb(202, 160, 160);
+}
+
+
+.avatar{
+    width: 200px !important;
+    border-radius: 20px;
+    margin-left: -25px;
+    margin-top: 75px;
+
+ }
+
+#avadiv{
+    width:20%;
+}
+
+.hummor_p{
+    display: inline;
+    margin:0;
+    text-decoration: line-through;
+ }
+
+.list{
+    list-style: none;
+
+}
+
+.list li{
+    margin-bottom:10px;
+}
+
+.table1{
+    width:100%;
+    margin-left:37px;
+}
+
+.table1 tr td{
+    padding-bottom: 10px;
+}
+
+.table1 td:nth-child(3){
+    color:rgb(5, 5, 31);
+}
+
+.link-list{
+    list-style: none;
+}
+
+.link-list li {
+    margin-bottom:10px;
+    padding-bottom:5px;
+    
+}
+
+.form1{
+    margin-left:40px;
+}
+
+.form_group label{
+display:block;
+padding-bottom:2px;
+}
+
+.form_group input, .form_group textarea{
+    width:100%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    margin:5px 0 15px;
+    outline: none;    
+}
+
+.row{
+    display: flex;
+}
+
+.row > .form_group{
+    width:50%;
+    
+}
+
+.row > .form_group:first-child{
+    margin-right:40px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+ }
+
+a:hover{
+text-decoration: underline;
+ }
+
+a:active{
+    color:blue;
+}
+
+.info{
+    display:flex;
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+
+.info > div:nth-child(2){
+    margin-left:30px;
+}
+
+@media (max-width:700px) {
+    .info {
+        display:block;
+        text-align:center;
+    }
+}
+
+
+
+.btn{
+    background: teal;
+    color:white;
+    padding:10 30px;
+    border:1px solid rgb(4, 97, 97);
+    font-family: inherit;
+    cursor:pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/* Position training */
+.position{
+margin-top:50px;
+padding:20px;
+border:3px solid black;
+position: relative;
+height:300px;
+}
+
+/* .box{
+width:50px;
+height:50px;
+background: lightcoral;
+position:fixed;
+left:150px;
+bottom:50px;
+border-radius:50%;
+} */
+
+
+/* вариант с фиксированным меню */
+
+.box{
+    width:50px;
+    height:50px;
+    background: lightcoral;
+    position:fixed;
+    /* left:150px;
+    bottom:50px; */
+    width: 100%;
+    top:0;
+    left:0;
+    }
+
+
+/* h1  {
+    color:teal;
+} */
+
+/* .avatar{
+
+    width: 200;
+    border-radius: 28px;
+    box-shadow: 4px 4px 15px rgba(0.0.0.025);
+} */
+
+/* .info p {
+    color: #86898f;
+    margin: 0;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+} */
+
+/* тренировка box-model */
+
+/* .container {
+    margin:auto;
+    max-width:750px;
+} */
+
+/* .hobby{
+    background:rgb(226, 225, 225);
+    padding: 15px;
+    border: 2px solid rgb(134, 144, 153);
+    margin: 20px;
+} */
+
+/* .box-model > div{
+    float:left; 
+    background: #2c2f35;
+    height:200px;
+    border: 4px solid red;
+    width:25%;
+    box-sizing: border-box;
+
+}  */
